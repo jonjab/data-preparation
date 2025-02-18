@@ -1,0 +1,63 @@
+name: prg
+channels:
+  - conda-forge
+  # - pytorch
+  # - nvidia
+  - defaults
+dependencies:
+  - pip>=20
+  - python>=3.10*
+  # - black
+  - cartopy
+  - contextily
+  - cupy
+  - dask[complete]
+  - dask-geopandas
+  - dask-ml
+  - efficientnet-pytorch
+  - geopandas
+  # - glum
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-geojson
+  - lz4
+  - matplotlib-base
+  # - mpi4py
+  # - nb_black
+  - nb_conda_kernels
+  - netcdf4
+  # - numba
+  - numcodecs
+  - numpy
+  - pandas
+  - planetary-computer
+  - p-tqdm
+  - pyarrow
+  - pydap
+  - pyepsg
+  - pyprojroot
+  - pystac-client
+  - pystac
+  - python-blosc
+  - python-gist
+  - python-graphviz
+  - python-pdal
+  - pytorch # -cuda=11.7
+  - pytorch-lightning
+  - rasterio
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - segmentation-models-pytorch
+  - shapely
+  - stackstac
+  - statsmodels
+  - stac-vrt
+  - timm
+  - torchgeo>=0.5.0
+  - torchaudio
+  - torchvision
+  - xarray
+  - pip:
+    - -r requirements.txt
